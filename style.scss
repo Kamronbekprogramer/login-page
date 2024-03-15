@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 920px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.cards-container {
+  max-width: 1180px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+body {
+  margin: 80px;
+  background-image: url("./images/stars_glare_space_dark_blue_sky_background_4k_hd_space.jpg");
+  background-size: cover;
+  form {
+    border-radius: 12px;
+    padding: 30px 80px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    h1 {
+      letter-spacing: -2px;
+      margin-bottom: -10px;
+    }
+    .name-email {
+      display: flex;
+      gap: 40px;
+      div {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        label {
+          font-size: 16px;
+          color: #8f8f8f;
+        }
+        input {
+          width: 340px;
+          border: none;
+          border-radius: 5px;
+          outline: none;
+          background: #f2f2f2;
+          font-size: 16px;
+          padding: 20px 30px;
+        }
+      }
+    }
+    .__link {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      label {
+        font-size: 17px;
+        color: #8f8f8f;
+      }
+      input {
+        width: 100%;
+        border: none;
+        border-radius: 5px;
+        outline: none;
+        background: #f2f2f2;
+        font-size: 16px;
+        padding: 20px 30px;
+      }
+    }
+    .__message {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      label {
+        font-size: 17px;
+        color: #8f8f8f;
+      }
+      textarea {
+        width: 720px;
+        border: none;
+        border-radius: 5px;
+        outline: none;
+        background: #f2f2f2;
+        font-size: 16px;
+        padding: 20px 30px;
+        resize: vertical;
+      }
+    }
+    button {
+      padding: 20px 40px;
+      border: none;
+      border-radius: 5px;
+      align-self: center;
+      color: white;
+      font-weight: 600;
+      font-size: 16px;
+      background-image: url(./images/stars_glare_space_dark_blue_sky_background_4k_hd_space.jpg);
+      background-size: cover;
+      cursor: pointer;
+    }
+    button:hover {
+      scale: 1.05;
+    }
+  }
+  .cards-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+    .card {
+      border-radius: 20px;
+      background: white;
+      width: 334px;
+      padding: 16px 40px 36px 40px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px;
+      border: 1px solid #f0f0f0;
+      img {
+        width: 150px !important;
+        height: 150px;
+        background-size: cover;
+        border-radius: 50%;
+        background: #767272;
+      }
+      h2 {
+        font-size: 20px;
+      }
+      h4 {
+        font-size: 16px;
+      }
+      h6 {
+        font-size: 14px;
+      }
+    
+      button {
+        font-weight: 600;
+        color: white;
+        background: red;
+        border: none;
+        border-radius: 20px;
+        width: 100%;
+        padding: 10px 0;
+        cursor: pointer;
+      }
+      h5 {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .footer {
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+
+    h3 {
+      color: #f2f2f2;
+      text-decoration: double;
+    }
+}
+

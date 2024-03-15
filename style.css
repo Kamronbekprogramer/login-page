@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 920px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.cards-container {
+  max-width: 1180px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+body {
+  margin: 80px;
+  background-image: url("./images/stars_glare_space_dark_blue_sky_background_4k_hd_space.jpg");
+  background-size: cover;
+}
+body form {
+  border-radius: 12px;
+  padding: 30px 80px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+body form h1 {
+  letter-spacing: -2px;
+  margin-bottom: -10px;
+}
+body form .name-email {
+  display: flex;
+  gap: 40px;
+}
+body form .name-email div {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+body form .name-email div label {
+  font-size: 16px;
+  color: #8f8f8f;
+}
+body form .name-email div input {
+  width: 340px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background: #f2f2f2;
+  font-size: 16px;
+  padding: 20px 30px;
+}
+body form .__link {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+body form .__link label {
+  font-size: 17px;
+  color: #8f8f8f;
+}
+body form .__link input {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background: #f2f2f2;
+  font-size: 16px;
+  padding: 20px 30px;
+}
+body form .__message {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+body form .__message label {
+  font-size: 17px;
+  color: #8f8f8f;
+}
+body form .__message textarea {
+  width: 720px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background: #f2f2f2;
+  font-size: 16px;
+  padding: 20px 30px;
+  resize: vertical;
+}
+body form button {
+  padding: 20px 40px;
+  border: none;
+  border-radius: 5px;
+  align-self: center;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  background-image: url(./images/stars_glare_space_dark_blue_sky_background_4k_hd_space.jpg);
+  background-size: cover;
+  cursor: pointer;
+}
+body form button:hover {
+  scale: 1.05;
+}
+body .cards-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+body .card {
+  border-radius: 20px;
+  background: white;
+  width: 334px;
+  padding: 16px 40px 36px 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid #f0f0f0;
+}
+body .card img {
+  width: 150px !important;
+  height: 150px;
+  background-size: cover;
+  border-radius: 50%;
+  background: #767272;
+}
+body .card h2 {
+  font-size: 20px;
+}
+body .card h4 {
+  font-size: 16px;
+}
+body .card h6 {
+  font-size: 14px;
+}
+body .card button {
+  font-weight: 600;
+  color: white;
+  background: red;
+  border: none;
+  border-radius: 20px;
+  width: 100%;
+  padding: 10px 0;
+  cursor: pointer;
+}
+body .card h5 {
+  cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+  align-items: center;
+  padding: 30px;
+}
+.footer h3 {
+  color: #f2f2f2;
+  -webkit-text-decoration: double;
+          text-decoration: double;
+}/*# sourceMappingURL=style.css.map */
