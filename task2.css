@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+a {
+  list-style-type: none;
+}
+
+body {
+  background-image: url(./images/stars_glare_space_dark_blue_sky_background_4k_hd_space.jpg);
+  background-size: cover;
+}
+
+.container {
+  margin: 80px auto;
+  max-width: 380px;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+header {
+  height: 60px;
+  padding: 15px 600px;
+  justify-content: center;
+  align-items: center;
+  background: rgb(17, 2, 181);
+
+  a {
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-left: 120px;
+    padding: 10px;
+    color: white;
+    align-items: center;
+  }
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+form {
+  width: 300px;
+  height: 120px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.form_password {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #ccc;
+}
+
+.form_password input {
+  width: 90%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 10px;
+}
+
+img {
+  cursor: pointer;
+}
+
+.red {
+    color: red;
+}
+
+.orange {
+    color: orange;
+}
+
+.green {
+    color: green;
+}
+
+#result {
+    margin-top: 10px;
+}
+
+button {
+  margin-top: 40px;
+  padding: 15px 30px;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

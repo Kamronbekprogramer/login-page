@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="stylesheet" href="./task2.css" />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <header>
+      <a href="./index.html">TASK-1</a>
+    </header>
+    <div class="container">
+      <h1>Password</h1>
+      <form >
+        <div class="form_password">
+          <input
+            id="password"
+            class="password"
+            placeholder="Password"
+            type="password"
+            onkeyup="validatePassword()"
+            required
+          />
+          <img
+            onclick="isHide()"
+            id="eyeicon"
+            src="./images/visibility_FILL0_wght400_GRAD0_opsz24.svg"
+            alt=""
+          />
+        </div>
+        <p id="result" class="red"></p>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+
+    <script src="./task2.js"></script>
+  </body>
+</html>

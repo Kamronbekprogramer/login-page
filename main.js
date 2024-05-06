@@ -18,10 +18,11 @@ form.addEventListener("submit", (e) => {
         DATA.push(newUser);
         createTable(DATA);
 
-        inputName.value = "";
-        inputEmail.value = "";
-        inputLink.value = "";
-        inputMessage.value = "";
+        e.target.reset();
+        // inputName.value = "";
+        // inputEmail.value = "";
+        // inputLink.value = "";
+        // inputMessage.value = "";
     } else {
         alert("Iltimos, barcha maydonlarni to'ldiring!"); 
     }
